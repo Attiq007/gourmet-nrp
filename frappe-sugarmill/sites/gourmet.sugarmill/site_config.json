@@ -1,0 +1,10 @@
+{
+ "__encryption_key": "SVuI6vA-UuaZXEgu6TKGvVejW8y0xXtyrPazYphkHQo=",
+ "db_host": "192.168.2.116",
+ "db_name": "erpnext",
+ "db_password": "erpnext@123",
+ "db_type": "mariadb",
+ "developer_mode": 1,
+ "encryption_key": "cdhohW3Ot7TEE5WMXMyfwbxJZmLswMqSnKlOO4FXWuI=",
+ "maintenance_mode": 0
+}

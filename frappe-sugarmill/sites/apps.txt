@@ -1,0 +1,5 @@
+frappe
+erpnext
+nerp
+nrp_manufacturing
+sugar_mill

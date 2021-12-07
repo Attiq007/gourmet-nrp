@@ -1,0 +1,110 @@
+[ERROR] 2021-11-17 11:25:26,408 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:25:26.404393-127.0.0.1-1fe
+[ERROR] 2021-11-17 11:25:31,410 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:25:31.404723-127.0.0.1-4cd
+[ERROR] 2021-11-17 11:25:36,413 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:25:36.406065-127.0.0.1-39d
+[ERROR] 2021-11-17 11:25:41,439 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:25:41.434530-127.0.0.1-746
+[ERROR] 2021-11-17 11:25:46,415 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:25:46.409097-127.0.0.1-c94
+[ERROR] 2021-11-17 11:25:48,556 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:25:48.545734-127.0.0.1-269
+[ERROR] 2021-11-17 11:25:51,454 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:25:51.447607-127.0.0.1-de0
+[ERROR] 2021-11-17 11:25:56,410 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:25:56.404824-127.0.0.1-4aa
+[ERROR] 2021-11-17 11:26:01,415 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:26:01.409948-127.0.0.1-a43
+[ERROR] 2021-11-17 11:30:52,975 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:30:52.972100-127.0.0.1-e59
+[ERROR] 2021-11-17 11:30:58,003 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:30:57.991550-127.0.0.1-c13
+[ERROR] 2021-11-17 11:31:02,980 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:02.976271-127.0.0.1-d1e
+[ERROR] 2021-11-17 11:31:08,012 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:08.007336-127.0.0.1-513
+[ERROR] 2021-11-17 11:31:12,971 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:12.968512-127.0.0.1-f8c
+[ERROR] 2021-11-17 11:31:17,983 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:17.977838-127.0.0.1-770
+[ERROR] 2021-11-17 11:31:22,983 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:22.978286-127.0.0.1-8ec
+[ERROR] 2021-11-17 11:31:27,982 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:27.974712-127.0.0.1-b4a
+[ERROR] 2021-11-17 11:31:32,968 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:32.964817-127.0.0.1-606
+[ERROR] 2021-11-17 11:31:37,974 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:37.969163-127.0.0.1-b3d
+[ERROR] 2021-11-17 11:31:42,978 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:42.972851-127.0.0.1-56d
+[ERROR] 2021-11-17 11:31:47,977 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:47.973155-127.0.0.1-64c
+[ERROR] 2021-11-17 11:31:51,085 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:51.077373-127.0.0.1-bb0
+[ERROR] 2021-11-17 11:31:52,979 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:52.975547-127.0.0.1-b0d
+[ERROR] 2021-11-17 11:31:57,062 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:57.054265-127.0.0.1-701
+[ERROR] 2021-11-17 11:31:57,317 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:57.309425-127.0.0.1-443
+[ERROR] 2021-11-17 11:31:57,976 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:31:57.972650-127.0.0.1-7b5
+[ERROR] 2021-11-17 11:32:02,991 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:32:02.984882-127.0.0.1-460
+[ERROR] 2021-11-17 11:32:07,982 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:32:07.973355-127.0.0.1-dc0
+[ERROR] 2021-11-17 11:32:12,980 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 11:32:12.976679-127.0.0.1-ae5
+[ERROR] 2021-11-17 12:24:55,297 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 12:24:55.292290-127.0.0.1-79f
+[ERROR] 2021-11-17 12:25:00,300 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 12:25:00.295130-127.0.0.1-ded
+[ERROR] 2021-11-17 12:25:05,404 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 12:25:05.360368-127.0.0.1-e76
+[ERROR] 2021-11-17 12:25:10,305 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 12:25:10.299335-127.0.0.1-1f8
+[ERROR] 2021-11-17 12:25:15,414 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 12:25:15.410359-127.0.0.1-517
+[ERROR] 2021-11-17 12:25:20,290 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 12:25:20.284423-127.0.0.1-89c
+[ERROR] 2021-11-17 12:25:25,296 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 12:25:25.293177-127.0.0.1-461
+[ERROR] 2021-11-17 13:30:19,520 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:19.516786-127.0.0.1-218
+[ERROR] 2021-11-17 13:30:24,527 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:24.520187-127.0.0.1-e27
+[ERROR] 2021-11-17 13:30:29,530 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:29.525577-127.0.0.1-175
+[ERROR] 2021-11-17 13:30:34,528 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:34.524802-127.0.0.1-305
+[ERROR] 2021-11-17 13:30:39,544 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:39.540933-127.0.0.1-a0e
+[ERROR] 2021-11-17 13:30:44,528 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:44.522449-127.0.0.1-c53
+[ERROR] 2021-11-17 13:30:49,559 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:49.553640-127.0.0.1-161
+[ERROR] 2021-11-17 13:30:54,533 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:54.525695-127.0.0.1-5a5
+[ERROR] 2021-11-17 13:30:57,067 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:57.062190-127.0.0.1-dbf
+[ERROR] 2021-11-17 13:30:59,531 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:30:59.525009-127.0.0.1-d6f
+[ERROR] 2021-11-17 13:31:04,526 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:31:04.521489-127.0.0.1-9d4
+[ERROR] 2021-11-17 13:31:09,530 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:31:09.524305-127.0.0.1-a41
+[ERROR] 2021-11-17 13:31:14,539 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:31:14.532736-127.0.0.1-b6b
+[ERROR] 2021-11-17 13:31:19,516 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:31:19.512869-127.0.0.1-1e4
+[ERROR] 2021-11-17 13:31:24,525 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:31:24.520745-127.0.0.1-eec
+[ERROR] 2021-11-17 13:31:29,528 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:31:29.523031-127.0.0.1-113
+[ERROR] 2021-11-17 13:31:34,529 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:31:34.523736-127.0.0.1-db7
+[ERROR] 2021-11-17 13:31:39,532 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:31:39.525425-127.0.0.1-83b
+[ERROR] 2021-11-17 13:31:44,520 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 13:31:44.516781-127.0.0.1-838

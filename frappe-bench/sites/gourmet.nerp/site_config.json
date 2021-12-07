@@ -1,0 +1,12 @@
+{
+    "db_name": "erpnext",
+    "db_password": "erpnextdb@79",
+    "db_type": "mariadb",
+    "developer_mode": 1,
+    "encryption_key": "FxlfSn0AbMGPzm9VCtOB-V7gfK3mi4QKWuNjDYrk8EA=",
+    "maintenance_mode": 0,
+    "max_file_size": 100000000,
+    "pause_scheduler": 0,
+    "db_host": "192.168.2.79"
+ }
+

@@ -1,0 +1,1115 @@
+[DEBUG] 2021-11-18 11:25:42,432 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:26:42,590 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:27:42,954 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:28:43,101 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:29:43,249 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:30:43,372 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:31:45,582 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:32:45,711 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:33:45,846 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:34:46,003 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:35:46,162 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:36:46,290 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:37:46,440 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:38:46,596 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:39:46,746 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:40:46,899 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:41:47,055 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 11:42:57,134 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Exception in Enqueue Events for Site gourmet.sugarmill
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 81, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 228, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 237, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 553, in get_single_value
+    `tabSingles` where `doctype`=%s and `field`=%s""", (doctype, fieldname))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+
+[ERROR] 2021-11-18 11:43:44,635 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 11:43:44,694 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 11:43:44.636813-127.0.0.1-8bc
+[ERROR] 2021-11-18 11:44:07,215 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Exception in Enqueue Events for Site gourmet.sugarmill
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 81, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 228, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 237, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 553, in get_single_value
+    `tabSingles` where `doctype`=%s and `field`=%s""", (doctype, fieldname))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+
+[DEBUG] 2021-11-18 11:45:07,373 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:46:14,793 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 11:46:44,639 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 11:46:44,648 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 11:46:44.640541-127.0.0.1-95f
+[DEBUG] 2021-11-18 11:47:14,921 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:48:15,076 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:49:16,262 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:50:16,383 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:51:16,534 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:52:16,701 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 11:53:26,777 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Exception in Enqueue Events for Site gourmet.sugarmill
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 81, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 228, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 237, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 553, in get_single_value
+    `tabSingles` where `doctype`=%s and `field`=%s""", (doctype, fieldname))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+
+[DEBUG] 2021-11-18 11:54:27,934 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:55:28,090 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 11:56:38,163 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Exception in Enqueue Events for Site gourmet.sugarmill
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 81, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 228, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 237, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 553, in get_single_value
+    `tabSingles` where `doctype`=%s and `field`=%s""", (doctype, fieldname))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+
+[ERROR] 2021-11-18 11:57:44,637 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 11:57:44,645 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 11:57:44.637655-127.0.0.1-f89
+[DEBUG] 2021-11-18 11:57:45,420 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 11:58:45,562 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 11:59:44,636 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 11:59:44,642 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 11:59:44.637006-127.0.0.1-23a
+[DEBUG] 2021-11-18 11:59:46,712 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:00:46,859 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:01:47,011 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:02:48,198 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:03:48,361 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:04:48,517 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:05:58,597 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Exception in Enqueue Events for Site gourmet.sugarmill
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 81, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 228, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 237, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 553, in get_single_value
+    `tabSingles` where `doctype`=%s and `field`=%s""", (doctype, fieldname))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+
+[DEBUG] 2021-11-18 12:06:58,724 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:08:06,039 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:09:16,122 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Exception in Enqueue Events for Site gourmet.sugarmill
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 81, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 228, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 237, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 553, in get_single_value
+    `tabSingles` where `doctype`=%s and `field`=%s""", (doctype, fieldname))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+
+[DEBUG] 2021-11-18 12:10:19,276 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:11:19,430 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:12:19,590 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:13:19,951 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:14:27,160 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:15:37,245 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Exception in Enqueue Events for Site gourmet.sugarmill
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 81, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 228, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 237, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 553, in get_single_value
+    `tabSingles` where `doctype`=%s and `field`=%s""", (doctype, fieldname))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+
+[DEBUG] 2021-11-18 12:16:37,390 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:17:38,551 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:18:45,971 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:19:46,104 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:20:46,226 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:21:53,635 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:22:54,789 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:23:55,944 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:24:44,640 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 12:24:44,648 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:24:44.641870-127.0.0.1-37c
+[ERROR] 2021-11-18 12:24:48,296 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Form Dict: {
+ "_lang": "en",
+ "doc": "{\"name\":\"LAB-RCY-21-000009\",\"owner\":\"shahzad.pervez@gourmetpakistan.com\",\"creation\":\"2021-11-17 15:31:29.313891\",\"modified\":\"2021-11-17 15:31:33.874012\",\"modified_by\":\"shahzad.pervez@gourmetpakistan.com\",\"idx\":0,\"docstatus\":1,\"start_date\":\"2021-11-12 00:00:00\",\"end_date\":\"2021-11-13 00:00:00\",\"brix_primary_juice\":17.54,\"brix_last_mill_juice\":2.95,\"brix_mixed_juice\":12.65,\"brix_cleared_juice\":13.25,\"brix_final_molasses\":97.2,\"brix_mud_cake\":0,\"brix_bagasse\":0,\"pol_primary_juice\":14.039,\"pol_last_mill_juice\":2.304,\"pol_mixed_juice\":10.108,\"pol_cleared_juice\":10.577,\"pol_final_molasses\":32.41,\"pol_mud_cake\":2.75,\"pol_bagasse\":1.373,\"purity_primary_juice\":80.04,\"purity_last_mill_juice\":78.102,\"purity_mixed_juice\":79.905,\"purity_cleared_juice\":79.827,\"purity_final_molasses\":33.344,\"purity_mud_cake\":0,\"purity_bagasse\":0,\"moisture_primary_juice\":0,\"moisture_last_mill_juice\":0,\"moisture_mixed_juice\":0,\"moisture_cleared_juice\":0,\"moisture_final_molasses\":0,\"moisture_mud_cake\":70,\"moisture_bagasse\":52.2,\"fiber_primary_juice\":12.75,\"sugar_prod_50_kg_reading\":6500,\"steam_m_ton_reading\":2000,\"fiber_last_mill_juice\":0,\"fiber_mixed_juice\":0,\"fiber_cleared_juice\":0,\"molasses_sent_out_reading\":165,\"mix_juice_flow_meter_tons_reading\":4600,\"fiber_final_molasses\":0,\"fiber_mud_cake\":0,\"fiber_bagasse\":0,\"doctype\":\"Laboratory Recovery Report\",\"laboratory_recovery_today\":[{\"name\":\"86ea522fe9\",\"owner\":\"shahzad.pervez@gourmetpakistan.com\",\"creation\":\"2021-11-17 15:31:29.313891\",\"modified\":\"2021-11-17 15:31:33.874012\",\"modified_by\":\"shahzad.pervez@gourmetpakistan.com\",\"parent\":\"LAB-RCY-21-000009\",\"parentfield\":\"laboratory_recovery_today\",\"parenttype\":\"Laboratory Recovery Report\",\"idx\":1,\"docstatus\":1,\"cane_crushedmtons\":4500.555,\"mix_juice_flow_meter_tons\":4600,\"netwet_mix_juice\":4577,\"mix_juice_cane\":101.698568,\"undilutted_juice_in_mix_juice\":73.345889,\"primary_juice_brix_todate\":17.54,\"primary_juice_pol_todate\":14.039,\"avg_primary_juice_purity_todate\":80.039909,\"purity_mix_juice\":79.905138,\"weight_pol_mix_juice\":462.64316,\"mix_juice_brix\":12.65,\"weight_brix_mix_juice\":578.9905,\"non_sugar_mix_juice\":116.34734,\"pol_in_mix_juice_cane\":10.279691,\"weight_lose_from_mud_cake\":94.511655,\"pol_mud_cake\":2.75,\"weight_pol_mud_cake\":3.712958,\"weight_mud_cake\":135.01665,\"sugar_in_mud_cake\":0.0825,\"clear_juice_purity\":79.827,\"clear_juice_brix\":13.25,\"weight_pol_clear_juice\":458.930202,\"weight_brix_clear_juice\":574.905987,\"purity_clear_juice\":79.827,\"non_sugar_clear_juice\":115.975785,\"clarification_effect\":0.31935,\"non_sugar_molasses\":64.79,\"weight_molasses\":179.0026,\"molasses_cane\":3.977345,\"weight_brix_final_molasses\":173.990527,\"weight_pol_molasses\":58.014743,\"average_purity_final_molasses\":33.343621,\"sugar_in_final_molasses\":1.289058,\"available_pol\":400.915459,\"expected_pol\":400.474452,\"rec_cane\":8.898335,\"actual_boiling_house_recovery\":86.562277,\"over_all_recovery\":83.474815,\"reduced_boiling_house_rec\":90.571075,\"steam_cane\":44.438964,\"steam_mton\":2000,\"bagasse_consumed\":1111.111111,\"bagasse_balance\":135.186255,\"last_mill_brix\":2.95,\"weight_brix_bagasse\":21.909379,\"brix_bagasse\":1.757958,\"moisture_bagasse\":52.2,\"weight_moisture_bagasse\":650.567225,\"weight_fiber_bagasse\":573.820763,\"fiber_bagasse\":46.042042,\"fiber_cane\":12.75,\"weight_fiber_cane\":573.820763,\"bagasse_cane\":27.692082,\"weight_bagasse\":1246.297366,\"weight_pol_bagasse\":17.111663,\"pol_bagasse\":1.373,\"sugar_in_bagasse\":0.380212,\"undilluted_juice_in_bagasse\":2.775456,\"undilluted_juice\":76.121345,\"weight_pol_cane\":479.754823,\"imbibition_in_fiber\":230.514902,\"pol_cane\":10.659904,\"java_ratio\":75.930647,\"mill_extraction\":96.433248,\"mill_extraction_mittal\":97.017943,\"mill_extraction_derr\":96.513176,\"milling_loss\":2.982057,\"total\":88.871345,\"brix_free_water\":11.128655,\"water_added\":1322.742366,\"imbibition_cane\":29.39065,\"sugar_in_mixed_juice_cane\":10.279691,\"und_losses\":0.009799,\"total_losses\":1.761569,\"molasses_sent_out\":165,\"molin_process\":14.0026,\"last_year_mol_in_process\":0,\"sugar_prod_50_kg\":6500,\"sugar_prodution_tonnes\":325,\"sugar_in_process\":75.474452,\"sugarcane_consumed\":3640.640753,\"sugarcane_wip\":859.914247,\"doctype\":\"Laboratory Recovery Today Readings\"}],\"laboratory_recovery_todate\":[{\"name\":\"7e6a67fe27\",\"owner\":\"shahzad.pervez@gourmetpakistan.com\",\"creation\":\"2021-11-17 15:31:29.313891\",\"modified\":\"2021-11-17 15:31:33.874012\",\"modified_by\":\"shahzad.pervez@gourmetpakistan.com\",\"parent\":\"LAB-RCY-21-000009\",\"parentfield\":\"laboratory_recovery_todate\",\"parenttype\":\"Laboratory Recovery Report\",\"idx\":1,\"docstatus\":1,\"cane_crushedmtons\":4500.555,\"mix_juice_flow_meter_tons\":4700,\"netwet_mix_juice\":4676.5,\"mix_juice_cane\":103.909407,\"undilutted_juice_in_mix_juice\":74.940365,\"primary_juice_brix_todate\":138.79,\"primary_juice_pol_todate\":13.805,\"avg_primary_juice_purity_todate\":9.946682,\"purity_mix_juice\":643.016609,\"weight_pol_mix_juice\":3803.939974,\"mix_juice_brix\":12.65,\"weight_brix_mix_juice\":591.57725,\"non_sugar_mix_juice\":-3212.362724,\"pol_in_mix_juice_cane\":84.521575,\"weight_lose_from_mud_cake\":94.511655,\"pol_mud_cake\":2.524874,\"weight_pol_mud_cake\":3.409,\"weight_mud_cake\":135.01665,\"sugar_in_mud_cake\":0.075746,\"clear_juice_purity\":79.977242,\"clear_juice_brix\":13.225,\"weight_pol_clear_juice\":457.553,\"weight_brix_clear_juice\":572.104,\"purity_clear_juice\":79.977242,\"non_sugar_clear_juice\":114.551,\"clarification_effect\":103.565942,\"non_sugar_molasses\":63.550474,\"weight_molasses\":180.252,\"molasses_cane\":4.005106,\"weight_brix_final_molasses\":169.888,\"weight_pol_molasses\":55.337,\"average_purity_final_molasses\":32.572636,\"sugar_in_final_molasses\":1.229559,\"available_pol\":402.206,\"expected_pol\":401.774,\"rec_cane\":8.92721,\"actual_boiling_house_recovery\":10.562049,\"over_all_recovery\":10.502863,\"reduced_boiling_house_rec\":118.68864,\"steam_cane\":43.372429,\"steam_mton\":1952,\"bagasse_consumed\":1084.444,\"bagasse_balance\":214.859,\"last_mill_brix\":2.7,\"weight_brix_bagasse\":31.596,\"brix_bagasse\":2.431765,\"moisture_bagasse\":52.400018,\"weight_moisture_bagasse\":680.835,\"weight_fiber_bagasse\":586.872,\"fiber_bagasse\":45.168217,\"fiber_cane\":13.039992,\"weight_fiber_cane\":586.872,\"bagasse_cane\":28.869839,\"weight_bagasse\":1299.303,\"weight_pol_bagasse\":21.436,\"pol_bagasse\":1.649808,\"sugar_in_bagasse\":0.476297,\"undilluted_juice_in_bagasse\":0.505834,\"undilluted_juice\":75.446198,\"weight_pol_cane\":3825.375974,\"imbibition_in_fiber\":251.374746,\"pol_cane\":84.997872,\"java_ratio\":615.703527,\"mill_extraction\":99.439637,\"mill_extraction_mittal\":96.347415,\"mill_extraction_derr\":99.466157,\"milling_loss\":3.652585,\"total\":88.48619,\"brix_free_water\":11.51381,\"water_added\":1475.248,\"imbibition_cane\":32.779246,\"sugar_in_mixed_juice_cane\":84.521575,\"und_losses\":74.289059,\"total_losses\":76.070662,\"molasses_sent_out\":130.509,\"molin_process\":49.743,\"last_year_mol_in_process\":49.743,\"sugar_prod_50_kg\":3300,\"sugar_prodution_tonnes\":165,\"sugar_in_process\":236.774,\"sugarcane_consumed\":0,\"sugarcane_wip\":0,\"doctype\":\"Laboratory Recovery Todate Readings\"}],\"laboratory_recovery_yesterday\":[],\"__last_sync_on\":\"2021-11-17T13:58:00.122Z\"}",
+ "no_letterhead": "1",
+ "print_format": "Standard"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 12:24:48,302 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:24:48.297081-127.0.0.1-922
+[ERROR] 2021-11-18 12:24:52,992 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 12:24:53,008 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:24:52.993417-127.0.0.1-751
+[DEBUG] 2021-11-18 12:24:59,121 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:25:44,637 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 12:25:44,646 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:25:44.638146-127.0.0.1-dfb
+[ERROR] 2021-11-18 12:25:47,409 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Form Dict: {
+ "doctype": "Print Format",
+ "fieldname": "format_data",
+ "name": "Lab Recovery Custom",
+ "value": "[{\"fieldname\":\"print_heading_template\",\"fieldtype\":\"Custom HTML\",\"options\":\"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2>Daily Calculating Scheme<br><small>{{ doc.name }}</small>\\t\\t\\t\\t</h2></div>\"},{\"fieldtype\":\"Section Break\",\"label\":\"\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"start_date\",\"print_hide\":0,\"label\":\"Start Date\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"end_date\",\"print_hide\":0,\"label\":\"End Date\"},{\"fieldtype\":\"Section Break\",\"label\":\"Brix Heading\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<h2><u>Brix Percentage:</u></h2>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Brix Percentage\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"brix_primary_juice\",\"print_hide\":0,\"align\":\"left\",\"label\":\"Brix Primary Juice\"},{\"fieldname\":\"brix_last_mill_juice\",\"print_hide\":0,\"label\":\"Brix Last Mill Juice\"},{\"fieldname\":\"brix_cleared_juice\",\"print_hide\":0,\"label\":\"Brix Cleared Juice\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"brix_final_molasses\",\"print_hide\":0,\"label\":\"Brix Final Molasses\"},{\"fieldname\":\"brix_mixed_juice\",\"print_hide\":0,\"label\":\"Brix Mixed Juice\"},{\"fieldname\":\"brix_mud_cake\",\"print_hide\":0,\"label\":\"Brix Mud Cake\"},{\"fieldtype\":\"Section Break\",\"label\":\"Brix End\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<hr>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Pol Heading\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<h2><u>Pol Percentage:</u></h2>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Pol Percentage\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"pol_primary_juice\",\"print_hide\":0,\"label\":\"Pol Primary Juice\"},{\"fieldname\":\"pol_last_mill_juice\",\"print_hide\":0,\"label\":\"Pol Last Mill Juice\"},{\"fieldname\":\"pol_mixed_juice\",\"print_hide\":0,\"label\":\"Pol Mixed Juice\"},{\"fieldname\":\"pol_cleared_juice\",\"print_hide\":0,\"label\":\"Pol Cleared Juice\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"pol_final_molasses\",\"print_hide\":0,\"label\":\"Pol Final Molasses\"},{\"fieldname\":\"pol_mud_cake\",\"print_hide\":0,\"label\":\"Pol Mud Cake\"},{\"fieldname\":\"pol_bagasse\",\"print_hide\":0,\"label\":\"Pol Bagasse\"},{\"fieldtype\":\"Section Break\",\"label\":\"Pol End\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<hr>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Purity Heading\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<h2><u>Purity:</u></h2>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Purity\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"purity_primary_juice\",\"print_hide\":0,\"label\":\"Purity Primary Juice\"},{\"fieldname\":\"purity_last_mill_juice\",\"print_hide\":0,\"label\":\"Purity Last Mill Juice\"},{\"fieldname\":\"purity_cleared_juice\",\"print_hide\":0,\"label\":\"Purity Cleared Juice\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"purity_mixed_juice\",\"print_hide\":0,\"label\":\"Purity Mixed Juice\"},{\"fieldname\":\"purity_final_molasses\",\"print_hide\":0,\"label\":\"Purity Final Molasses\"},{\"fieldtype\":\"Section Break\",\"label\":\"Purity End\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<hr>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Moisture Heading\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<h2><u>Moisture Percentage:</u></h2>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Moisture Percentage\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"moisture_mud_cake\",\"print_hide\":0,\"label\":\"Moisture Mud Cake\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"moisture_bagasse\",\"print_hide\":0,\"label\":\"Moisture Bagasse\"},{\"fieldtype\":\"Section Break\",\"label\":\"Moisture End\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<hr>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Fiber Heading\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<h2><u>Other Suagr Cane Enteries:</u></h2>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Fiber Percentage Cane\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"fiber_primary_juice\",\"print_hide\":0,\"label\":\"Fiber % Cane\"},{\"fieldname\":\"sugar_prod_50_kg_reading\",\"print_hide\":0,\"label\":\"Sugar Prod 50 kg Reading\"},{\"fieldname\":\"steam_m_ton_reading\",\"print_hide\":0,\"label\":\"Steam M ton Reading\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"molasses_sent_out_reading\",\"print_hide\":0,\"label\":\"Molasses Sent Out Reading\"},{\"fieldname\":\"mix_juice_flow_meter_tons_reading\",\"print_hide\":0,\"label\":\"Mix Juice Flow Meter Tons Reading\"},{\"fieldtype\":\"Section Break\",\"label\":\"Fiber End\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<hr>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Laboratory Recovery\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<h2><u>Laboratory Recovery:</u></h2>\\n\\n<table>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Cane Crushed.M.Tons:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].cane_crushedmtons}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].cane_crushedmtons}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Molasses Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].molasses_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].molasses_cane}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Sugar in Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].sugar_in_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].sugar_in_bagasse}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Mix Juice Flow Meter Tons:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].mix_juice_flow_meter_tons}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].mix_juice_flow_meter_tons}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Weight Brix Final Molasses:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_brix_final_molasses}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_brix_final_molasses}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Undilluted juice in Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].undilluted_juice_in_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].undilluted_juice_in_bagasse}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Net.Wet Mix juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].netwet_mix_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].netwet_mix_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Weight Pol Molasses:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_pol_molasses}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_pol_molasses}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Undilluted Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].undilluted_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].undilluted_juice}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Mix Juice Cane %:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].mix_juice_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].mix_juice_cane}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Average Purity Final Molasses:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].average_purity_final_molasses}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].average_purity_final_molasses}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Weight POL Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_pol_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_pol_cane}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Undilutted Juice in Mix Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].undilutted_juice_in_mix_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].undilutted_juice_in_mix_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Sugar in Final Molasses:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].sugar_in_final_molasses}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].sugar_in_final_molasses}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Imbibition in Fiber:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].imbibition_in_fiber}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].imbibition_in_fiber}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Primary Juice Brix Todate:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].primary_juice_brix_todate}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].primary_juice_brix_todate}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Available Pol:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].available_pol}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].available_pol}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Pol Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].pol_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].pol_cane}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Primary Juice Pol Todate:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].primary_juice_pol_todate}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].primary_juice_pol_todate}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Expected Pol:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].expected_pol}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].expected_pol}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Java Ratio:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].java_ratio}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].java_ratio}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Avg Primary Juice Purity Todate:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].avg_primary_juice_purity_todate}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].avg_primary_juice_purity_todate}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Rec Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].rec_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].rec_cane}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Mill Extraction:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].mill_extraction}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].mill_extraction}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Purity Mix Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].purity_mix_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].purity_mix_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Actual Boiling House Recovery:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].actual_boiling_house_recovery}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].actual_boiling_house_recovery}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Mill Extraction (Mittal):</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].mill_extraction_mittal}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].mill_extraction_mittal}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Weight Pol Mix Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_pol_mix_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_pol_mix_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Over all recovery:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].over_all_recovery}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].over_all_recovery}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Mill Extraction (Derr):</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].mill_extraction_derr}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].mill_extraction_derr}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Mix Juice Brix:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].mix_juice_brix}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].mix_juice_brix}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Reduced Boiling House Rec:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].reduced_boiling_house_rec}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].reduced_boiling_house_rec}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Milling Loss:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].milling_loss}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].milling_loss}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Weight Brix Mix Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_brix_mix_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_brix_mix_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Steam Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].steam_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].steam_cane}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Total:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].total}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].total}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Non Sugar Mix Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].non_sugar_mix_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].non_sugar_mix_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Steam M.Ton:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].steam_mton}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].steam_mton}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Brix Free Water:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].brix_free_water}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].brix_free_water}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Pol in Mix Juice Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].pol_in_mix_juice_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].pol_in_mix_juice_cane}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Bagasse Consumed:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].bagasse_consumed}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].bagasse_consumed}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Water added:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].water_added}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].water_added}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Weight Lose from Mud Cake:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_lose_from_mud_cake}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_lose_from_mud_cake}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Bagasse Balance:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].bagasse_balance}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].bagasse_balance}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Imbibition Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].imbibition_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].imbibition_cane}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Pol Mud Cake:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].pol_mud_cake}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].pol_mud_cake}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Last Mill Brix:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].last_mill_brix}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].last_mill_brix}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Sugar in Mixed Juice Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].sugar_in_mixed_juice_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].sugar_in_mixed_juice_cane}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Weight Pol Mud Cake:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_pol_mud_cake}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_pol_mud_cake}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Weight Brix Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_brix_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_brix_bagasse}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Und Losses:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].und_losses}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].und_losses}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Weight Mud Cake:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_mud_cake}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_mud_cake}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Brix Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].brix_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].brix_bagasse}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Total Losses:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].total_losses}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].total_losses}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Sugar in Mud Cake:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].sugar_in_mud_cake}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].sugar_in_mud_cake}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Moisture Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].moisture_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].moisture_bagasse}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Molasses Sent Out:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].molasses_sent_out}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].molasses_sent_out}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Clear Juice Purity:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].clear_juice_purity}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].clear_juice_purity}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Weight Moisture Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_moisture_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_moisture_bagasse}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Mol.in Process:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].molin_process}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].molin_process}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Clear Juice Brix:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].clear_juice_brix}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].clear_juice_brix}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Weight Fiber Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_fiber_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_fiber_bagasse}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Last year Mol. in Process:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].last_year_mol_in_process}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].last_year_mol_in_process}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Weight Pol Clear Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_pol_clear_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_pol_clear_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Fiber Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].fiber_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].fiber_bagasse}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Sugar Prod. 50 Kg:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].sugar_prod_50_kg}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].sugar_prod_50_kg}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Weight Brix Clear Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_brix_clear_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_brix_clear_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Fiber Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].fiber_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].fiber_cane}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Sugar Prodution Tonnes:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].sugar_prodution_tonnes}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].sugar_prodution_tonnes}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Purity Clear Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].purity_clear_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].purity_clear_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Weight Fiber Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_fiber_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_fiber_cane}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Sugar in Process:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].sugar_in_process}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].sugar_in_process}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Non Sugar Clear Juice:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].non_sugar_clear_juice}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].non_sugar_clear_juice}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Bagasse Cane:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].bagasse_cane}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].bagasse_cane}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Sugarcane Consumed:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].sugarcane_consumed}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].sugarcane_consumed}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Clarification Effect:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].clarification_effect}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].clarification_effect}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Weight Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_bagasse}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Sugarcane WIP:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].sugarcane_wip}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].sugarcane_wip}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Non Sugar Molasses:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].non_sugar_molasses}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].non_sugar_molasses}}</th>\\n    <td style=\\\"width:300px;\\\"><b>Weight POL Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_pol_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_pol_bagasse}}</th>\\n  </tr>\\n  <tr>\\n    <td style=\\\"width:300px;\\\"><b>Weight Molasses:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].weight_molasses}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].weight_molasses}}</th>\\n    <td style=\\\"width:300px;\\\"><b>POL Bagasse:</b><br><b>Today:</b> {{doc.laboratory_recovery_today[0].pol_bagasse}} <br><b>Todate:</b> {{doc.laboratory_recovery_todate[0].pol_bagasse}}</th>\\n  </tr>\\n</table>\"},{\"fieldtype\":\"Section Break\",\"label\":\"Today Table End\"},{\"fieldtype\":\"Column Break\"},{\"fieldname\":\"_custom_html\",\"print_hide\":0,\"label\":\"Custom HTML\",\"fieldtype\":\"HTML\",\"options\":\"<hr>\"}]"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 12:25:47,418 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:25:47.410295-127.0.0.1-398
+[DEBUG] 2021-11-18 12:25:59,250 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:26:44,636 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 12:26:44,640 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:26:44.636827-127.0.0.1-8ae
+[DEBUG] 2021-11-18 12:27:06,446 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:27:44,628 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 12:27:44,634 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:27:44.629460-127.0.0.1-6c3
+[DEBUG] 2021-11-18 12:28:09,638 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:29:12,790 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:30:12,946 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:31:13,092 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:32:13,267 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:33:23,346 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Exception in Enqueue Events for Site gourmet.sugarmill
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 81, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 228, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 237, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 553, in get_single_value
+    `tabSingles` where `doctype`=%s and `field`=%s""", (doctype, fieldname))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+
+[ERROR] 2021-11-18 12:34:33,427 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Exception in Enqueue Events for Site gourmet.sugarmill
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 81, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 228, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py", line 237, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 553, in get_single_value
+    `tabSingles` where `doctype`=%s and `field`=%s""", (doctype, fieldname))
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+
+[DEBUG] 2021-11-18 12:35:33,563 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:36:40,913 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:37:41,041 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:38:41,182 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[DEBUG] 2021-11-18 12:39:44,377 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:39:44,636 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-18 12:39:44,646 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:39:44.637136-127.0.0.1-5df
+[ERROR] 2021-11-18 12:40:44,634 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:40:44.629094-127.0.0.1-10a
+[DEBUG] 2021-11-18 12:40:44,941 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/scheduler.py:
+Site: gourmet.sugarmill
+Queued events for site gourmet.sugarmill
+[ERROR] 2021-11-18 12:47:44,649 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:47:44.646451-127.0.0.1-68a
+[ERROR] 2021-11-18 12:48:44,634 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 12:48:44.630773-127.0.0.1-f7f
+[ERROR] 2021-11-18 13:00:44,643 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:00:44.639887-127.0.0.1-fcd
+[ERROR] 2021-11-18 13:03:44,645 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:03:44.642091-127.0.0.1-603
+[ERROR] 2021-11-18 13:04:44,635 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:04:44.632427-127.0.0.1-6b0
+[ERROR] 2021-11-18 13:05:44,645 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:05:44.640061-127.0.0.1-cea
+[ERROR] 2021-11-18 13:23:44,639 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:23:44.635918-127.0.0.1-a33
+[ERROR] 2021-11-18 13:24:44,639 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:24:44.635789-127.0.0.1-ef6
+[ERROR] 2021-11-18 13:27:44,643 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:27:44.640162-127.0.0.1-cf0
+[ERROR] 2021-11-18 13:29:44,657 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:29:44.649303-127.0.0.1-d64
+[ERROR] 2021-11-18 13:44:44,651 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:44:44.644946-127.0.0.1-643
+[ERROR] 2021-11-18 13:46:44,642 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-18 13:46:44.637029-127.0.0.1-acd

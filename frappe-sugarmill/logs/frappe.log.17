@@ -1,0 +1,1583 @@
+[ERROR] 2021-11-17 12:25:05,300 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 12:25:10,298 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 12:25:15,408 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 12:25:20,283 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 12:25:25,292 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:19,516 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:24,519 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:29,524 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:34,520 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:39,540 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:44,521 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:49,552 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:54,524 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:57,061 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Form Dict: {
+ "doctype": "Laboratory Recovery Report",
+ "fields": "[\"`tabLaboratory Recovery Report`.`name`\",\"`tabLaboratory Recovery Report`.`owner`\",\"`tabLaboratory Recovery Report`.`creation`\",\"`tabLaboratory Recovery Report`.`modified`\",\"`tabLaboratory Recovery Report`.`modified_by`\",\"`tabLaboratory Recovery Report`.`_user_tags`\",\"`tabLaboratory Recovery Report`.`_comments`\",\"`tabLaboratory Recovery Report`.`_assign`\",\"`tabLaboratory Recovery Report`.`_liked_by`\",\"`tabLaboratory Recovery Report`.`docstatus`\",\"`tabLaboratory Recovery Report`.`parent`\",\"`tabLaboratory Recovery Report`.`parenttype`\",\"`tabLaboratory Recovery Report`.`parentfield`\",\"`tabLaboratory Recovery Report`.`idx`\",\"`tabLaboratory Recovery Report`.`start_date`\",\"`tabLaboratory Recovery Report`.`end_date`\"]",
+ "filters": "[]",
+ "order_by": "`tabLaboratory Recovery Report`.`modified` desc",
+ "page_length": "20",
+ "start": "0",
+ "view": "List",
+ "with_comment_count": "true"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:30:59,524 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:31:04,521 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:31:09,523 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:31:14,531 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:31:19,512 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:31:24,520 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:31:29,522 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:31:34,522 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:31:39,524 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 13:31:44,516 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:05:57,070 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:05:57,070 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:05:57,071 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Form Dict: {
+ "doctype": "Laboratory Recovery Report",
+ "fields": "[\"`tabLaboratory Recovery Report`.`name`\",\"`tabLaboratory Recovery Report`.`owner`\",\"`tabLaboratory Recovery Report`.`creation`\",\"`tabLaboratory Recovery Report`.`modified`\",\"`tabLaboratory Recovery Report`.`modified_by`\",\"`tabLaboratory Recovery Report`.`_user_tags`\",\"`tabLaboratory Recovery Report`.`_comments`\",\"`tabLaboratory Recovery Report`.`_assign`\",\"`tabLaboratory Recovery Report`.`_liked_by`\",\"`tabLaboratory Recovery Report`.`docstatus`\",\"`tabLaboratory Recovery Report`.`parent`\",\"`tabLaboratory Recovery Report`.`parenttype`\",\"`tabLaboratory Recovery Report`.`parentfield`\",\"`tabLaboratory Recovery Report`.`idx`\",\"`tabLaboratory Recovery Report`.`start_date`\",\"`tabLaboratory Recovery Report`.`end_date`\"]",
+ "filters": "[]",
+ "order_by": "`tabLaboratory Recovery Report`.`modified` desc",
+ "page_length": "20",
+ "start": "0",
+ "view": "List",
+ "with_comment_count": "true"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:05:57,071 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Form Dict: {
+ "doctype": "Laboratory Recovery Report",
+ "fields": "[\"`tabLaboratory Recovery Report`.`name`\",\"`tabLaboratory Recovery Report`.`owner`\",\"`tabLaboratory Recovery Report`.`creation`\",\"`tabLaboratory Recovery Report`.`modified`\",\"`tabLaboratory Recovery Report`.`modified_by`\",\"`tabLaboratory Recovery Report`.`_user_tags`\",\"`tabLaboratory Recovery Report`.`_comments`\",\"`tabLaboratory Recovery Report`.`_assign`\",\"`tabLaboratory Recovery Report`.`_liked_by`\",\"`tabLaboratory Recovery Report`.`docstatus`\",\"`tabLaboratory Recovery Report`.`parent`\",\"`tabLaboratory Recovery Report`.`parenttype`\",\"`tabLaboratory Recovery Report`.`parentfield`\",\"`tabLaboratory Recovery Report`.`idx`\",\"`tabLaboratory Recovery Report`.`start_date`\",\"`tabLaboratory Recovery Report`.`end_date`\"]",
+ "filters": "[]",
+ "order_by": "`tabLaboratory Recovery Report`.`modified` desc",
+ "page_length": "20",
+ "start": "0",
+ "view": "List",
+ "with_comment_count": "true"
+}
+Site: gourmet.sugarmill
+Form Dict: {
+ "doctype": "Laboratory Recovery Report",
+ "fields": "[\"`tabLaboratory Recovery Report`.`name`\",\"`tabLaboratory Recovery Report`.`owner`\",\"`tabLaboratory Recovery Report`.`creation`\",\"`tabLaboratory Recovery Report`.`modified`\",\"`tabLaboratory Recovery Report`.`modified_by`\",\"`tabLaboratory Recovery Report`.`_user_tags`\",\"`tabLaboratory Recovery Report`.`_comments`\",\"`tabLaboratory Recovery Report`.`_assign`\",\"`tabLaboratory Recovery Report`.`_liked_by`\",\"`tabLaboratory Recovery Report`.`docstatus`\",\"`tabLaboratory Recovery Report`.`parent`\",\"`tabLaboratory Recovery Report`.`parenttype`\",\"`tabLaboratory Recovery Report`.`parentfield`\",\"`tabLaboratory Recovery Report`.`idx`\",\"`tabLaboratory Recovery Report`.`start_date`\",\"`tabLaboratory Recovery Report`.`end_date`\"]",
+ "filters": "[]",
+ "order_by": "`tabLaboratory Recovery Report`.`modified` desc",
+ "page_length": "20",
+ "start": "0",
+ "view": "List",
+ "with_comment_count": "true"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:05:57,152 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 16:05:57.071592-127.0.0.1-b9f
+[ERROR] 2021-11-17 16:05:57,152 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 16:05:57.071832-127.0.0.1-aed
+[ERROR] 2021-11-17 16:06:07,276 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:06:07,276 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:06:07,286 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 16:06:07.278102-127.0.0.1-f81
+[ERROR] 2021-11-17 16:20:57,056 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:20:57,056 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Site: gourmet.sugarmill
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:20:57,063 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 16:20:57.057205-127.0.0.1-a0e
+[ERROR] 2021-11-17 16:20:57,077 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Form Dict: {
+ "doctype": "Laboratory Recovery Report",
+ "fields": "[\"`tabLaboratory Recovery Report`.`name`\",\"`tabLaboratory Recovery Report`.`owner`\",\"`tabLaboratory Recovery Report`.`creation`\",\"`tabLaboratory Recovery Report`.`modified`\",\"`tabLaboratory Recovery Report`.`modified_by`\",\"`tabLaboratory Recovery Report`.`_user_tags`\",\"`tabLaboratory Recovery Report`.`_comments`\",\"`tabLaboratory Recovery Report`.`_assign`\",\"`tabLaboratory Recovery Report`.`_liked_by`\",\"`tabLaboratory Recovery Report`.`docstatus`\",\"`tabLaboratory Recovery Report`.`parent`\",\"`tabLaboratory Recovery Report`.`parenttype`\",\"`tabLaboratory Recovery Report`.`parentfield`\",\"`tabLaboratory Recovery Report`.`idx`\",\"`tabLaboratory Recovery Report`.`start_date`\",\"`tabLaboratory Recovery Report`.`end_date`\"]",
+ "filters": "[]",
+ "order_by": "`tabLaboratory Recovery Report`.`modified` desc",
+ "page_length": "20",
+ "start": "0",
+ "view": "List",
+ "with_comment_count": "true"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:20:57,077 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py:
+Site: gourmet.sugarmill
+Form Dict: {
+ "doctype": "Laboratory Recovery Report",
+ "fields": "[\"`tabLaboratory Recovery Report`.`name`\",\"`tabLaboratory Recovery Report`.`owner`\",\"`tabLaboratory Recovery Report`.`creation`\",\"`tabLaboratory Recovery Report`.`modified`\",\"`tabLaboratory Recovery Report`.`modified_by`\",\"`tabLaboratory Recovery Report`.`_user_tags`\",\"`tabLaboratory Recovery Report`.`_comments`\",\"`tabLaboratory Recovery Report`.`_assign`\",\"`tabLaboratory Recovery Report`.`_liked_by`\",\"`tabLaboratory Recovery Report`.`docstatus`\",\"`tabLaboratory Recovery Report`.`parent`\",\"`tabLaboratory Recovery Report`.`parenttype`\",\"`tabLaboratory Recovery Report`.`parentfield`\",\"`tabLaboratory Recovery Report`.`idx`\",\"`tabLaboratory Recovery Report`.`start_date`\",\"`tabLaboratory Recovery Report`.`end_date`\"]",
+ "filters": "[]",
+ "order_by": "`tabLaboratory Recovery Report`.`modified` desc",
+ "page_length": "20",
+ "start": "0",
+ "view": "List",
+ "with_comment_count": "true"
+}
+Site: gourmet.sugarmill
+Form Dict: {
+ "doctype": "Laboratory Recovery Report",
+ "fields": "[\"`tabLaboratory Recovery Report`.`name`\",\"`tabLaboratory Recovery Report`.`owner`\",\"`tabLaboratory Recovery Report`.`creation`\",\"`tabLaboratory Recovery Report`.`modified`\",\"`tabLaboratory Recovery Report`.`modified_by`\",\"`tabLaboratory Recovery Report`.`_user_tags`\",\"`tabLaboratory Recovery Report`.`_comments`\",\"`tabLaboratory Recovery Report`.`_assign`\",\"`tabLaboratory Recovery Report`.`_liked_by`\",\"`tabLaboratory Recovery Report`.`docstatus`\",\"`tabLaboratory Recovery Report`.`parent`\",\"`tabLaboratory Recovery Report`.`parenttype`\",\"`tabLaboratory Recovery Report`.`parentfield`\",\"`tabLaboratory Recovery Report`.`idx`\",\"`tabLaboratory Recovery Report`.`start_date`\",\"`tabLaboratory Recovery Report`.`end_date`\"]",
+ "filters": "[]",
+ "order_by": "`tabLaboratory Recovery Report`.`modified` desc",
+ "page_length": "20",
+ "start": "0",
+ "view": "List",
+ "with_comment_count": "true"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 583, in connect
+    **kwargs)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/app.py", line 125, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 51, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.get_user_info()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/auth.py", line 149, in get_user_info
+    ["user_type", "first_name", "last_name", "user_image"], as_dict=1)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 401, in get_value
+    order_by, cache=cache)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 445, in get_values
+    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 592, in _get_values_from_table
+    as_dict=as_dict, debug=debug, update=update)
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/attiq/frappe-sugarmill/apps/frappe/frappe/database/mariadb/database.py", line 90, in get_connection
+    local_infile = frappe.conf.local_infile)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/attiq/frappe-sugarmill/env/lib/python3.6/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.2.116' (timed out)")
+[ERROR] 2021-11-17 16:20:57,083 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 16:20:57.078882-127.0.0.1-ca5
+[ERROR] 2021-11-17 16:21:57,054 | /home/attiq/frappe-sugarmill/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2021-11-17 16:21:57.051334-127.0.0.1-ac7

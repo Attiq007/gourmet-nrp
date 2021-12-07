@@ -1,0 +1,16671 @@
+Could not find User: Administrator Route History
+Could not find User: Administrator Route History
+Could not find User: Administrator Route History
+Could not find User: Administrator Route History
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Email Account', 'enable_incoming', '=', 1], ['Email Account', 'awaiting_password', '=', 0]]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Email Account']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Email Account'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+['`tabDocShare`.read = 1.0', "`tabDocShare`.share_doctype = 'Email Account'"]
+
+
+
+
+
+
+
+
+['`tabEmail Account`.enable_incoming = 1.0', '`tabEmail Account`.awaiting_password = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Email Account', 'enable_incoming', '=', 1], ['Email Account', 'notify_if_unreplied', '=', 1]]
+
+
+
+
+
+
+
+
+['`tabEmail Account`.enable_incoming = 1.0', '`tabEmail Account`.notify_if_unreplied = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['OAuth Authorization Code', 'validity', '=', 'Invalid']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'OAuth Authorization Code']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'OAuth Authorization Code'"]
+
+
+
+
+
+
+
+
+["`tabOAuth Authorization Code`.validity = 'Invalid'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['OAuth Bearer Token', 'status', '=', 'Revoked']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'OAuth Bearer Token']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'OAuth Bearer Token'"]
+
+
+
+
+
+
+
+
+["`tabOAuth Bearer Token`.status = 'Revoked'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Razorpay Settings']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Razorpay Settings'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Integration Request', 'status', '=', 'Authorized'], ['Integration Request', 'integration_request_service', '=', 'Razorpay']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Integration Request']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Integration Request'"]
+
+
+
+
+
+
+
+
+["`tabIntegration Request`.status = 'Authorized'", "`tabIntegration Request`.integration_request_service = 'Razorpay'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['User', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+['`tabUser`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+[]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Web Page']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Web Page'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Project', 'collect_progress', '=', 1], ['Project', 'frequency', '=', 'Daily'], ['Project', 'status', '=', 'Open']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Project']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Project'"]
+
+
+
+
+
+
+
+
+['`tabProject`.collect_progress = 1.0', "`tabProject`.frequency = 'Daily'", "`tabProject`.status = 'Open'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Project', 'collect_progress', '=', 1], ['Project', 'frequency', '=', 'Twice Daily'], ['Project', 'status', '=', 'Open']]
+
+
+
+
+
+
+
+
+['`tabProject`.collect_progress = 1.0', "`tabProject`.frequency = 'Twice Daily'", "`tabProject`.status = 'Open'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Project', 'collect_progress', '=', 1], ['Project', 'frequency', '=', 'Weekly'], ['Project', 'status', '=', 'Open']]
+
+
+
+
+
+
+
+
+['`tabProject`.collect_progress = 1.0', "`tabProject`.frequency = 'Weekly'", "`tabProject`.status = 'Open'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Healthcare Settings']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Healthcare Settings'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Error Snapshot']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Error Snapshot'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Notification', 'enabled', '=', 1], ['Notification', 'document_type', '=', 'Error Snapshot']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Notification']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Notification'"]
+
+
+
+
+
+
+
+
+['`tabNotification`.enabled = 1.0', "`tabNotification`.document_type = 'Error Snapshot'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+[]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Webhook']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Webhook'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Notification Settings']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Notification Settings'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['DocType', 'name', 'not in', ['Issue', 'Warranty Claim', 'Task', 'Project', 'Lead', 'Contact', 'Opportunity', 'Quotation', 'Sales Order', 'Journal Entry', 'Sales Invoice', 'Purchase Invoice', 'Payment Entry', 'Leave Application', 'Expense Claim', 'Job Applicant', 'Delivery Note', 'Stock Entry', 'Material Request', 'Request for Quotation', 'Supplier Quotation', 'Purchase Order', 'Purchase Receipt', 'Work Order', 'BOM', 'Timesheet', 'Lab Test', 'Sample Collection', 'Patient Appointment', 'Patient Encounter']], ['DocType', 'is_submittable', '=', 1]]
+
+
+
+
+
+
+
+
+["ifnull(`tabDocType`.name, '') not in ('Issue', 'Warranty Claim', 'Task', 'Project', 'Lead', 'Contact', 'Opportunity', 'Quotation', 'Sales Order', 'Journal Entry', 'Sales Invoice', 'Purchase Invoice', 'Payment Entry', 'Leave Application', 'Expense Claim', 'Job Applicant', 'Delivery Note', 'Stock Entry', 'Material Request', 'Request for Quotation', 'Supplier Quotation', 'Purchase Order', 'Purchase Receipt', 'Work Order', 'BOM', 'Timesheet', 'Lab Test', 'Sample Collection', 'Patient Appointment', 'Patient Encounter')", '`tabDocType`.is_submittable = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Assignment Rule']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Assignment Rule'"]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Milestone Tracker']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Milestone Tracker'"]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Version']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Version'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Notification', 'enabled', '=', 1], ['Notification', 'document_type', '=', 'Version']]
+
+
+
+
+
+
+
+
+['`tabNotification`.enabled = 1.0', "`tabNotification`.document_type = 'Version'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Energy Point Settings']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Energy Point Settings'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Energy Point Rule']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Energy Point Rule'"]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '8b2341ef09'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Document Follow']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Document Follow'"]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '8b2341ef09'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'f96158387c'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'f96158387c'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '0d5ece3182'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '0d5ece3182'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '7695e5fada'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '7695e5fada'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '2cdf1c5350'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '2cdf1c5350'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'a6288206ef'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'a6288206ef'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'af4017bd40'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'af4017bd40'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '27c553cb65'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '27c553cb65'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'd1080ca0e0'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'd1080ca0e0'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '8b6145f734'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '8b6145f734'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '4fa2bc378e'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '4fa2bc378e'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '067e54d595'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '067e54d595'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'ee4cd1b234'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'ee4cd1b234'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'e77b56f23b'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'e77b56f23b'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '8608cc8e3e'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '8608cc8e3e'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '3001b5a6e9'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '3001b5a6e9'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'c6dc8e61fc'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'c6dc8e61fc'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '59bb2b636c'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '59bb2b636c'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'a740f6d208'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'a740f6d208'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '04f1f7928a'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '04f1f7928a'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '2c9d2c1d50'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '2c9d2c1d50'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '505413c4b0'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '505413c4b0'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'OperationalError(2003, "Can\'t connect to MySQL server on \'192.168.2.219\' (timed out)")'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'OperationalError(2003, \\"Can\\\'t connect to MySQL server on \\\'192.168.2.219\\\' (timed out)\\")\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'ce99fd8579'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'ce99fd8579'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'c5c5438ef8'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'c5c5438ef8'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '2721508f38'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '2721508f38'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '7afd5cab52'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '7afd5cab52'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'OperationalError(2003, "Can\'t connect to MySQL server on \'192.168.2.219\' (timed out)")'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'OperationalError(2003, \\"Can\\\'t connect to MySQL server on \\\'192.168.2.219\\\' (timed out)\\")\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '57720bba15'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '57720bba15'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '5e0ffef3f9'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '5e0ffef3f9'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'a684ae15be'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'a684ae15be'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'ff0bd8f660'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'ff0bd8f660'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'OperationalError(2003, "Can\'t connect to MySQL server on \'192.168.2.219\' (timed out)")'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'OperationalError(2003, \\"Can\\\'t connect to MySQL server on \\\'192.168.2.219\\\' (timed out)\\")\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '0ba3144378'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '0ba3144378'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '3be02f7bd4'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '3be02f7bd4'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'b972f01e5c'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'b972f01e5c'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'b6103aa7c3'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'b6103aa7c3'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '984c03027c'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '984c03027c'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '6905d5c577'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '6905d5c577'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '85543ed276'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '85543ed276'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'f3e9e2696a'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'f3e9e2696a'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'cb58159f1d'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'cb58159f1d'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '9d69aba831'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '9d69aba831'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'ebe1210f1d'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'ebe1210f1d'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '38e4ca0d2a'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '38e4ca0d2a'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'e3206639e3'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'e3206639e3'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '78b6f534d2'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '78b6f534d2'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'ab6ede985e'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'ab6ede985e'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'c217370d42'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'c217370d42'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'OperationalError(2003, "Can\'t connect to MySQL server on \'192.168.2.219\' (timed out)")'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'OperationalError(2003, \\"Can\\\'t connect to MySQL server on \\\'192.168.2.219\\\' (timed out)\\")\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '4adab67a6c'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '4adab67a6c'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'b161d331d6'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'b161d331d6'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '41ccb4c858'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '41ccb4c858'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'da3df1c580'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'da3df1c580'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '3727ba2ecb'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '3727ba2ecb'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'c15ffb481e'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'c15ffb481e'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '88f2fbbfae'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '88f2fbbfae'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'fc2dd83ffa'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'fc2dd83ffa'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '58f63d1afb'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '58f63d1afb'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '3d35bee9a6'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '3d35bee9a6'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'b5c521f04f'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'b5c521f04f'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '161aa46b30'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '161aa46b30'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '01d2d496e5'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '01d2d496e5'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'b4a6dcd0ec'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'b4a6dcd0ec'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'eb5e7757b6'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'eb5e7757b6'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '1647ecb988'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '1647ecb988'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '81f1237163'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '81f1237163'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'ff9004bea7'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'ff9004bea7'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'eed4dc5930'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'eed4dc5930'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '1bfff528d0'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '1bfff528d0'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'OperationalError(2003, "Can\'t connect to MySQL server on \'192.168.2.219\' (timed out)")'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'OperationalError(2003, \\"Can\\\'t connect to MySQL server on \\\'192.168.2.219\\\' (timed out)\\")\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '8a4feeb1da'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '8a4feeb1da'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'a0ab883f6d'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'a0ab883f6d'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '91cb70180e'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '91cb70180e'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '215d78cd7a'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '215d78cd7a'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'e410048cf4'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'e410048cf4'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '66b9b65f44'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '66b9b65f44'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '8c08e74600'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '8c08e74600'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '05ba17b934'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '05ba17b934'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'a6e781fd97'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'a6e781fd97'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'fc0746d1ac'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'fc0746d1ac'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'dc60df0bd3'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'dc60df0bd3'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'b1a4226464'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'b1a4226464'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '1d78e5ddab'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '1d78e5ddab'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '8ded9c7aac'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '8ded9c7aac'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '8dc2cfd1cd'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '8dc2cfd1cd'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'a3f04f6711'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'a3f04f6711'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '097702fa27'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '097702fa27'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '5dd41e2d8e'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '5dd41e2d8e'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'f97e72d0ab'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'f97e72d0ab'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'c865eb3166'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'c865eb3166'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'ca6957e4c0'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'ca6957e4c0'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '69d2e73333'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '69d2e73333'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'ffd55667fd'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'ffd55667fd'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'e6ffb6056d'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'e6ffb6056d'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'OperationalError(2003, "Can\'t connect to MySQL server on \'192.168.2.219\' (timed out)")'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'OperationalError(2003, \\"Can\\\'t connect to MySQL server on \\\'192.168.2.219\\\' (timed out)\\")\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'c2caa43a33'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'c2caa43a33'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'd8792b2f4f'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'd8792b2f4f'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '9e040d140f'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '9e040d140f'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '1c71c1c22c'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '1c71c1c22c'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '26a43f14d4'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '26a43f14d4'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '66639dbf10'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '66639dbf10'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'bcca439dad'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'bcca439dad'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '54c47e81bd'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '54c47e81bd'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'b0738ce277'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'b0738ce277'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '9fb718bd23'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '9fb718bd23'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'c8f818e3e7'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'c8f818e3e7'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '03630b9d34'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '03630b9d34'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '7534c15248'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '7534c15248'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'a6ccc77630'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'a6ccc77630'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'c9e67d7038'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'c9e67d7038'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '200e8408d3'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '200e8408d3'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'OperationalError(2003, "Can\'t connect to MySQL server on \'192.168.2.219\' (timed out)")'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'OperationalError(2003, \\"Can\\\'t connect to MySQL server on \\\'192.168.2.219\\\' (timed out)\\")\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '7102e5769d'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '7102e5769d'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '410f1f1da0'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '410f1f1da0'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '0754dc61d0'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '0754dc61d0'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '2e24b2da4e'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '2e24b2da4e'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', 'd2a634fc1c'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = 'd2a634fc1c'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '29c0452087'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '29c0452087'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'OperationalError(2003, "Can\'t connect to MySQL server on \'192.168.2.219\' ([Errno 101] Network is unreachable)")'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'OperationalError(2003, \\"Can\\\'t connect to MySQL server on \\\'192.168.2.219\\\' ([Errno 101] Network is unreachable)\\")\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '7f7e3d034b'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '7f7e3d034b'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'a94192e504'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'a94192e504'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '95ee8cfd42'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '95ee8cfd42'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', '30c01b6e62'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = '30c01b6e62'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Error Snapshot', 'evalue', '=', 'TypeError("get_user_info() missing 1 required positional argument: \'sid\'",)'], ['Error Snapshot', 'parent_error_snapshot', '=', '']]
+
+
+
+
+
+
+
+
+['`tabError Snapshot`.evalue = \'TypeError(\\"get_user_info() missing 1 required positional argument: \\\'sid\\\'\\",)\'', "ifnull(`tabError Snapshot`.parent_error_snapshot, '') = ''"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Error Snapshot'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Error Snapshot'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Error Snapshot'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Error Snapshot'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Assignment Rule', 'document_type', '=', 'Version'], ['Assignment Rule', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabAssignment Rule`.document_type = 'Version'", '`tabAssignment Rule`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Milestone Tracker', 'document_type', '=', 'Version'], ['Milestone Tracker', 'disabled', '=', 0]]
+
+
+
+
+
+
+
+
+["`tabMilestone Tracker`.document_type = 'Version'", '`tabMilestone Tracker`.disabled = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Version'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Version'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Version'], ['Document Follow', 'ref_docname', '=', '9f6bde458f'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Version'", "`tabDocument Follow`.ref_docname = '9f6bde458f'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Energy Point Rule', 'reference_doctype', '=', 'Error Snapshot'], ['Energy Point Rule', 'enabled', '=', 1]]
+
+
+
+
+
+
+
+
+["`tabEnergy Point Rule`.reference_doctype = 'Error Snapshot'", '`tabEnergy Point Rule`.enabled = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Document Follow', 'ref_doctype', '=', 'Error Snapshot'], ['Document Follow', 'ref_docname', '=', 'cb4642b79a'], ['Document Follow', 'user', '=', 'Administrator']]
+
+
+
+
+
+
+
+
+["`tabDocument Follow`.ref_doctype = 'Error Snapshot'", "`tabDocument Follow`.ref_docname = 'cb4642b79a'", "`tabDocument Follow`.user = 'Administrator'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+['`tabDocShare`.read = 1.0', "`tabDocShare`.share_doctype = 'Document Follow'"]
+
+
+
+
+
+
+
+
+[]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Google Calendar', 'enable', '=', 1]]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Google Calendar']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Google Calendar'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+['`tabDocShare`.read = 1.0', "`tabDocShare`.share_doctype = 'Google Calendar'"]
+
+
+
+
+
+
+
+
+['`tabGoogle Calendar`.enable = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+[]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Daily Work Summary Group']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Daily Work Summary Group'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Amazon MWS Settings']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Amazon MWS Settings'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['GL Entry', 'to_rename', '=', '1']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'GL Entry']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'GL Entry'"]
+
+
+
+
+
+
+
+
+['`tabGL Entry`.to_rename = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Stock Ledger Entry', 'to_rename', '=', '1']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Stock Ledger Entry']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Stock Ledger Entry'"]
+
+
+
+
+
+
+
+
+['`tabStock Ledger Entry`.to_rename = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Plaid Settings']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Plaid Settings'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Project', 'collect_progress', '=', 1], ['Project', 'frequency', '=', 'Hourly'], ['Project', 'status', '=', 'Open']]
+
+
+
+
+
+
+
+
+['`tabProject`.collect_progress = 1.0', "`tabProject`.frequency = 'Hourly'", "`tabProject`.status = 'Open'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Project Update', 'date', '=', '2021-02-04'], ['Project Update', 'sent', '=', 0]]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Project Update']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Project Update'"]
+
+
+
+
+
+
+
+
+["`tabProject Update`.date = '2021-02-04'", '`tabProject Update`.sent = 0.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Shift Type', 'enable_auto_attendance', '=', '1']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Shift Type']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Shift Type'"]
+
+
+
+
+
+
+
+
+['`tabShift Type`.enable_auto_attendance = 1.0']
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Employee Checkin', 'skip_auto_attendance', '=', '0'], ['Employee Checkin', 'attendance', 'is', 'not set'], ['Employee Checkin', 'time', '>=', datetime.date(2020, 8, 26)], ['Employee Checkin', 'shift_actual_end', '<', datetime.datetime(2021, 2, 4, 2, 0)], ['Employee Checkin', 'shift', '=', '6AM to 3PM']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Employee Checkin']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Employee Checkin'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+['`tabDocShare`.read = 1.0', "`tabDocShare`.share_doctype = 'Employee Checkin'"]
+
+
+
+
+
+
+
+
+['`tabEmployee Checkin`.skip_auto_attendance = 0.0', "ifnull(`tabEmployee Checkin`.attendance, '') = ''", "ifnull(`tabEmployee Checkin`.time, '0001-01-01 00:00:00') >= '2020-08-26 00:00:00.000000'", "ifnull(`tabEmployee Checkin`.shift_actual_end, '0001-01-01 00:00:00') < '2021-02-04 02:00:00.000000'", "`tabEmployee Checkin`.shift = '6AM to 3PM'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Shift Assignment', 'date', '>=', datetime.date(2020, 8, 26)], ['Shift Assignment', 'shift_type', '=', '6AM to 3PM'], ['Shift Assignment', 'docstatus', '=', '1']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Shift Assignment']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Shift Assignment'"]
+
+
+
+
+
+
+
+
+["ifnull(`tabShift Assignment`.date, '0001-01-01') >= '2020-08-26'", "`tabShift Assignment`.shift_type = '6AM to 3PM'", "`tabShift Assignment`.docstatus = '1'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Employee', 'default_shift', '=', '6AM to 3PM']]
+
+
+
+
+
+
+
+
+["`tabEmployee`.default_shift = '6AM to 3PM'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Holiday List', 'name', '=', 'Zero Holidays'], ['Holiday List', 'holiday_date', '=', datetime.date(2021, 2, 4)]]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Holiday List']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Holiday List'"]
+
+
+
+
+
+
+
+
+["`tabHoliday List`.name = 'Zero Holidays'", "`tabHoliday`.holiday_date = '2021-02-04'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Holiday List', 'name', '=', 'Zero Holidays'], ['Holiday List', 'holiday_date', '=', datetime.date(2021, 2, 5)]]
+
+
+
+
+
+
+
+
+["`tabHoliday List`.name = 'Zero Holidays'", "`tabHoliday`.holiday_date = '2021-02-05'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Holiday List', 'name', '=', 'Zero Holidays'], ['Holiday List', 'holiday_date', '=', datetime.date(2021, 2, 3)]]
+
+
+
+
+
+
+
+
+["`tabHoliday List`.name = 'Zero Holidays'", "`tabHoliday`.holiday_date = '2021-02-03'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Holiday List', 'name', '=', 'Zero Holidays'], ['Holiday List', 'holiday_date', '=', datetime.date(2021, 2, 2)]]
+
+
+
+
+
+
+
+
+["`tabHoliday List`.name = 'Zero Holidays'", "`tabHoliday`.holiday_date = '2021-02-02'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Issue', 'status', '=', 'Open'], ['Issue', 'agreement_fulfilled', '=', 'Ongoing']]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+In String conversion
+[['Custom DocPerm', 'parent', '=', 'Issue']]
+
+
+
+
+
+
+
+
+["`tabCustom DocPerm`.parent = 'Issue'"]
+
+
+
+
+
+
+
+
+In Parse Args
+
+
+
+
+
+
+
+
+['`tabDocShare`.read = 1.0', "`tabDocShare`.share_doctype = 'Issue'"]
+
+
+
+
+
+
+
+
+["`tabIssue`.status = 'Open'", "`tabIssue`.agreement_fulfilled = 'Ongoing'"]
+
+
+
+
+Task exceeded maximum timeout value (300 seconds) Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(0, '') Route History
+(2003, "Can't connect to MySQL server on '192.168.2.219' (timed out)") Route History
+(2003, "Can't connect to MySQL server on '192.168.2.219' (timed out)") Route History
+(2003, "Can't connect to MySQL server on '192.168.2.219' (timed out)") Route History
+
+
+
+
+In Make payment entry
+
+
+
+
+
+
+
+
+In make condition
+
+
+
+
+
+
+
+
+['Sales - G']
+ and t1.department NOT IN ('Sales - G')
+
+
+
+
+
+
+
+
+ and t1.department NOT IN ('Sales - G') and t1.status = 'Paid' and date(t1.payment_time) = '2021-04-22' 
+
+
+
+
+Route History cc9a0b1f64: 'Route' (List/Material Request/List?material_request_type=Purchase&status=[&quot;in&quot;, [&quot;Draft&quot;,&quot;Partially Ordered&quot;,&quot;Pending&quot;,&quot;Partially Received&quot;]]) will get truncated, as max characters allowed is 140 Route History
+2021-06-30 -184840.0
+2021-06-30 2813778.368
+inconsistent use of tabs and spaces in indentation (employee.py, line 65) Route History
+inconsistent use of tabs and spaces in indentation (employee.py, line 65) Route History
+Could not find app "None"
+Could not find app "None"
+Could not find app "None"
+Could not find app "None"
+Could not find app "None"
+Could not find app "None"
+Could not find app "None"
+Could not find app "None"
